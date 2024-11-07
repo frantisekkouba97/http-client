@@ -1,0 +1,6 @@
+monolog:
+  handlers:
+    file_log:
+      type: stream
+      path: '%kernel.logs_dir%/client.log'
+      level: error
